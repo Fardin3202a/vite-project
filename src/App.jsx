@@ -6,17 +6,17 @@ import Main from './Components/Main';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
-import Footer from './Components/Footer'; // Import Footer component
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/vite-project"> {/* Add the base path */}
       <Nav /> {/* Navbar visible on all pages */}
       <Routes>
-        <Route 
-          path="/" 
+        <Route
+          path="/"
           element={
-            <>
+            <div>
               <Element name="home">
                 <Main />
               </Element>
@@ -29,16 +29,14 @@ const App = () => {
               <Element name="contact">
                 <Contact />
               </Element>
-            </>
-          } 
+            </div>
+          }
         />
-        {/* Add additional routes for individual sections if needed */}
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
-      <Footer /> {/* Add Footer after the Routes */}
+      <Footer /> {/* Footer is rendered after Routes */}
     </Router>
   );
 };
