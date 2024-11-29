@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className=' z-50'>
           <div id='about-section' className=' w-screen h-screen flex flex-row relative'>
-      <img className=' absolute max-w-1/2 max-h-screen' src="vite-project/src/assets/AboutBg.png" alt="" />
-      <img className=' absolute max-w-[960px] max-h-[550px] top-36' src="./src/assets/Vector.png" alt="" />
+      <img className=' absolute max-w-1/2 max-h-screen' src="vite-project/src/assets/AboutBg.pnhttps://github.com/Fardin3202a/vite-project/blob/main/src/assets/AboutBg.png?raw=true" alt="" />
+      <img className=' absolute max-w-[960px] max-h-[550px] top-36' src="https://github.com/Fardin3202a/vite-project/blob/main/src/assets/Vector.png?raw=true" alt="" />
       <div className=' w-1/2 h-screen flex flex-col justify-center items-center z-10'>
         <div className=' border-2 border-dashed border-lightText w-[60%] h-72 rounded-3xl flex flex-col justify-center items-start p-10'>
           <h1 className=' text-3xl font-bold text-Primary'>About me</h1>
