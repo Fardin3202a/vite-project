@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       img: "./src/assets/Project1.png", // Replace with your image URL
-      fullImg: './src/assets/PROJECT1FULL.png',
+      fullImg: '/vite-project/src/assets/PROJECT1FULL.png',
       heading: "Personal Portfolio Website",
       shortPara:
         "A modern and responsive personal portfolio website to showcase my skills and projects.",
@@ -51,7 +51,7 @@ const Portfolio = () => {
     >
       <img
         className=" overflow-hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1213px] has-[767px] blur-[200px]"
-        src="./src/assets/SecondaryBg.png"
+        src="/vite-project/src/assets/SecondaryBg.png"
         alt=""
       />
       <div className=" w-screen h-[0.0625rem] bg-white opacity-60 absolute top-72"></div>
