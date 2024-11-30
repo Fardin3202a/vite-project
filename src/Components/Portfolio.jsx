@@ -10,12 +10,12 @@ const Portfolio = () => {
   const portfolioData = [
     {
       id: 1,
-      img: "https://github.com/Fardin3202a/vite-project/blob/main/src/assets/Project1.png?raw=true", // Replace with your image URL
-      fullImg: 'https://github.com/Fardin3202a/vite-project/blob/main/src/assets/PROJECT1FUll.png?raw=true',
+      img: "./public/assets/Project1.png", // Replace with your image URL
+      fullImg: './public/assets/PROJECT1FULL.png',
       heading: "Personal Portfolio Website",
       shortPara:
         "A modern and responsive personal portfolio website to showcase my skills and projects.",
-      link: "https://c4.wallpaperflare.com/wallpaper/843/56/876/night-artwork-futuristic-city-cyberpunk-wallpaper-preview.jpg", // Replace with actual project link
+      link: "Fardin3202a/github.io/portfolio", // Replace with actual project link
     },
     {
       id: 2,
